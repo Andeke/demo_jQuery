@@ -24,10 +24,10 @@ a {
     text-decoration: none;
 }
 
-a:link {    color: black; }
-a:visited { color: black; }
-a:hover {   color: black; }
-a:active {  color: black; }
+a:link {	color: black; }
+a:visited {	color: black; }
+a:hover {	color: black; }
+a:active {	color: black; }
 
 #top_form {
     width: 400px;
@@ -40,4 +40,24 @@ a:active {  color: black; }
     margin: 15px;
     padding: 20px;
     overflow: hidden;
+}
+
+.item {
+    padding: 5px;
+    margin: 5px;
+    overflow: hidden;
+}
+
+.item_edit, .item_remove, .item_details {
+    float: right;
+}
+
+.first_row {
+    overflow: hidden;
+    border: none;
+}
+
+.item_age_profession {
+    display: none;
+    border: none;
 }
